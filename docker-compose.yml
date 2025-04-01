@@ -30,7 +30,7 @@ services:
       DB_NAME: indexer
       DB_PORT: 5432
       DB_SSLMODE: disable
-      LOG_LEVEL: вуигп
+      LOG_LEVEL: debug
       GRPC_ENDPOINT: http://your-grpc-url:10000
     depends_on:
       postgres:
