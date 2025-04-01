@@ -35,6 +35,7 @@ services:
     depends_on:
       postgres:
         condition: service_healthy
+    restart: on-failure  # This will restart the container on failure
     networks:
       - app-network
 
